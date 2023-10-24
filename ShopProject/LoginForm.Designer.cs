@@ -30,7 +30,7 @@
         {
             this.Username = new System.Windows.Forms.TextBox();
             this.Password = new System.Windows.Forms.MaskedTextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.showPass = new System.Windows.Forms.CheckBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -53,15 +53,15 @@
             this.Password.Size = new System.Drawing.Size(251, 22);
             this.Password.TabIndex = 1;
             // 
-            // checkBox1
+            // showPass
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(148, 184);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(125, 20);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Show Password";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.showPass.AutoSize = true;
+            this.showPass.Location = new System.Drawing.Point(148, 184);
+            this.showPass.Name = "showPass";
+            this.showPass.Size = new System.Drawing.Size(125, 20);
+            this.showPass.TabIndex = 2;
+            this.showPass.Text = "Show Password";
+            this.showPass.UseVisualStyleBackColor = true;
             // 
             // linkLabel1
             // 
@@ -117,7 +117,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 387);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.showPass);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label3);
@@ -135,7 +135,7 @@
 
         private System.Windows.Forms.TextBox Username;
         private System.Windows.Forms.MaskedTextBox Password;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox showPass;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
